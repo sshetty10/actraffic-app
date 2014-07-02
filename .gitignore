@@ -1,0 +1,14 @@
+
+.classpath
+
+.project
+
+*.prefs
+
+*.class
+
+target/classes/META-INF/MANIFEST.MF
+
+target/classes/META-INF/maven/com.sshetty.apps/actraffic-app/pom.properties
+
+target/classes/META-INF/maven/com.sshetty.apps/actraffic-app/pom.xml
