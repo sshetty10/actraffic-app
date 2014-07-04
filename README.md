@@ -9,6 +9,7 @@ Log4j implementation provided for logging capabilities.
 
 
 ## Instructions
+
 1. Project Architecture
 	a. src/main/java
 		i. com.sshetty.actraffic.manager.main
@@ -64,6 +65,18 @@ Log4j implementation provided for logging capabilities.
 			b. Remove Aircraft - Remove aircraft from the system
 			c. View Aircrafts - all active aircrafts in the queue
 			d. Exit - Close the application. The queue will be persisted so that can be loaded the next time
+
+4. How to run:
+	-Unzip the project file or get the src from github
+	-New -> Java Project -> Unzipped file Location -> Finish
+	-Build the Project: preferrably using maven - mvn clean install
+	-Run the application
+		a.Using the jar
+			i. cd ${your target} folder
+			ii. java -jar actraffic-app-1.0.2.jar
+		b. From Eclipse
+			i. ActrafficManager.java - > Run as Java Application
+
 
 Maven goals:
 mvn clean compile
