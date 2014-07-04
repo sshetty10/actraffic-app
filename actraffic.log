@@ -1,0 +1,12 @@
+[main] com.sshetty.actraffic.manager.AcManagerQueue  INFO - There are 0 aircrafts in queue:
+[main] com.sshetty.actraffic.manager.AcManagerQueue  INFO - There are 0 aircrafts in queue:
+[09:39:29] [INFO ][com.sshetty.actraffic.manager.AcManagerQueue][80]- There are 0 aircrafts in queue:
+[09:39:32] [INFO ][com.sshetty.actraffic.manager.AcManagerQueue][80]- There are 0 aircrafts in queue:
+[09:40:08] [INFO ][com.sshetty.actraffic.manager.AcManagerQueue][80]- There are 1 aircrafts in queue:
+[09:40:08] [INFO ][com.sshetty.actraffic.manager.AcManagerQueue][83]- AG2345 : A LARGE CARGO Aircraft added at 1404481195943
+[09:42:39] [INFO ][com.sshetty.apps.actraffic.beans.AcManagerQueue][78]- There are 1 aircrafts in queue:
+[09:42:39] [INFO ][com.sshetty.apps.actraffic.beans.AcManagerQueue][81]- AG2345 : A LARGE CARGO Aircraft added at 1404481195943
+[09:42:42] [INFO ][com.sshetty.apps.actraffic.beans.AcManagerQueue][78]- There are 1 aircrafts in queue:
+[09:42:42] [INFO ][com.sshetty.apps.actraffic.beans.AcManagerQueue][81]- AG2345 : A LARGE CARGO Aircraft added at 1404481195943
+[12:23:21] [INFO ][com.sshetty.apps.actraffic.beans.AcManagerQueue][87]- Aircraft to be removed:dQjv06Q
+[12:23:39] [INFO ][com.sshetty.apps.actraffic.beans.AcManagerQueue][87]- Aircraft to be removed:U7JvSaF

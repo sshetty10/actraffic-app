@@ -10,7 +10,15 @@ package com.sshetty.apps.actraffic.beans;
 public class Aircraft {
 	private AircraftType acType;
 	private AircraftSize acSize;
+	private String number;
+	
 	private long timeStamp;
+	public String getNumber() {
+		return number;
+	}
+	public void setNumber(String number) {
+		this.number = number;
+	}
 	public AircraftType getAcType() {
 		return acType;
 	}

@@ -1,8 +1,12 @@
 package com.sshetty.apps.actraffic.beans;
 
+/**
+ * @author Sameeksha
+ * Aircraft size enumeration
+ */
 public enum AircraftSize {
 	
-	LARGE(5),SMALL(11);
+	LARGE(1),SMALL(2);
 	private int  acSizeCode;
 	
 	private AircraftSize(int acSizeCode){

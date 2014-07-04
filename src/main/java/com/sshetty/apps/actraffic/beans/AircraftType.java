@@ -1,8 +1,12 @@
 package com.sshetty.apps.actraffic.beans;
 
+/**
+ * @author Sameeksha
+ * Aircraft Type enumeration
+ */
 public enum AircraftType {
 	
-	PASSENGER(1),CARGO(3);
+	PASSENGER(1),CARGO(2);
 	private int  acTypeCode;
 	
 	private AircraftType(int acTypeCode){
