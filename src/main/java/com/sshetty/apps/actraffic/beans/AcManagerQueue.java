@@ -27,7 +27,7 @@ public class AcManagerQueue {
 	
 			if(ac1.getAcType().getAcTypeCode() == ac2.getAcType().getAcTypeCode()){	// If types are equal, type has higher precedence over size
 				if(ac1.getAcSize().getAcSizeCode() == ac2.getAcSize().getAcSizeCode()){	// If sizes are equal
-					return (ac2.getTimeStamp() > ac1.getTimeStamp()?1:-1); //removal precedence based on timestamp
+					return (ac1.getTimeStamp() > ac2.getTimeStamp()?1:-1); //removal precedence based on timestamp
 				}
 				else{
 					return ac1.getAcSize().getAcSizeCode() - ac2.getAcSize().getAcSizeCode(); // if sizes unequal then removal precedence based on size
@@ -83,7 +83,7 @@ public class AcManagerQueue {
 	public Aircraft removeFromQ(){
 		try{
 			Aircraft ac = acQueue.remove();
-			acSet.remove(ac);
+			acSet.remove(ac.getNumber().toUpperCase());
 			logger.info("Aircraft to be removed:" + ac.getNumber());
 			return ac;
 		}
@@ -101,6 +101,8 @@ public class AcManagerQueue {
 		int i=0;
 		if(acArr.length==1)
 			System.out.println("There is "+acArr.length + " aircraft in the queue:");
+		else if(acArr.length==0)
+			System.out.println("There are no aircrafts in the queue:");
 		else
 			System.out.println("There are "+acArr.length + " aircrafts in the queue:");
 		while(i< acArr.length){
